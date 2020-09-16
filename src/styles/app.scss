@@ -1,1 +1,46 @@
 @import "~bootstrap/scss/bootstrap";
+
+$white:            #FFFFFF;
+$green:            #00E2A5;
+$blue:             #565D70;
+$background-grey:  #EEF3F3;
+$text-grey:        #C0C0C0;
+
+body{
+    background-color: $background-grey;
+}
+
+.primary__navbar{
+    background-color: $green;
+}
+
+.second__navbar{
+    background-color: $blue;
+}
+
+.second__navbar__title{
+    color: $white;
+    font-size: 12px;
+}
+
+.content__title{
+    margin-top: 10px;
+}
+
+.content__title--blue{
+    color: $blue;
+    font-size: 20px;
+}
+
+.content__title--grey{
+    color: $text-grey; 
+}
+
+.card-header{
+    color: $green;
+    background-color: $blue;
+}
+
+.card-footer{
+    background-color: $green;
+}
